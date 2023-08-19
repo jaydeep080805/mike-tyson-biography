@@ -112,95 +112,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
-
-
-    /* MY ATTEMPT
-    .footer {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    .footer-container {
-        max-width: 1170px;
-        background-color: red;
-        margin: auto;
-    }
-
-    .row {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    ul {
-        list-style-type: none;
-    }
-
-    .footer {
-        background-color: #24262b;
-        padding: 70px 0;
-    }
-    
-    .footer-col {
-        width: 25%;
-        padding: 0 15px;
-    }
-
-    .footer-col h4 {
-        font-size: 18px;
-        color: #ffffff;
-        text-transform: capitalize;
-        margin-bottom: 30px;
-        font-weight: 500;
-        position: relative;
-    }
-
-    .footer-col h4::before {
-        content: '';
-        position: absolute;
-        left: 0;
-        bottom: -10px;
-        background-color: #e91e63;
-        height: 2px;
-        box-sizing: border-box;
-        width: 50px;
-    }
-    
-    .footer-col ul li:not(:last-child) {
-        margin-bottom: 10px;
-    }
-
-
-    .footer-col ul li a {
-        font-size: 16px;
-        text-transform: capitalize;
-        color: #ffffff;
-        text-decoration: none;
-        font-weight: 300;
-        color: #bbbbbb;
-        display: block;
-        transition: all 0.3 ease;
-    }
-    
-    .footer-col ul li a:hover {
-        color: #ffffff;
-        padding-left: 8px;
-    }
-    
-    .footer-col .social-links a {
-        display: inline-block;
-        height: 40px;
-        width: 40px;
-        background-color: rgba(255, 255, 255, 0.2);
-        margin: 0 10px 10px 0;
-        text-align: center;
-        line-height: 40px;
-        border-radius: 50%;
-        color: #fffff;
-    }
-    
-    */
     
 .footer-container{
     max-width: 1170px;
@@ -281,10 +192,46 @@ ul{
     }
 } */
 
-/* @media(max-width: 574px){ */
-@media(max-width: 662px){
-    .footer-col{
-    width: 100%;
+/* mobile sizing */
+@media(min-width: 0px) and (max-width: 1000px){
+    body {
+        margin: 0;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    .title {
+        font-size:15rem;
+        text-align: left;
+        margin-left: 10px;
+        margin-top: 0;
+    }
+
+    #red-title-colour {
+        color: red;
+    }
+
+    .subheading {
+        text-align: left;
+        font-size: 3rem;
+        margin-left: 10px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .heading {
+        font-size: 8rem;
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+
+    .information {
+        font-size: 2.5rem;
+        padding-left: 20px;
     }
 
     .container {
@@ -294,7 +241,7 @@ ul{
     }
 
     #photo-credit {
-        margin: 0px 0px 0px 10px;
+        margin: 0 0 10px 10px;
     }
 
     .heading {
@@ -314,5 +261,32 @@ ul{
 
     .yt-video {
         margin: 20px 0 0 0;
+        width: 100%;
+        height: 500px;
+    }
+
+    .footer-col{
+        width: 100%;
+    }
+
+    .footer-col h4{
+        font-size: 6rem;
+    }
+    .footer-col h4::before{
+        width: 200px;
+    }
+
+    .footer-col ul li a{
+        font-size: 2rem;
+    }
+
+    .footer-col .social-links a{
+        height: 100px;
+        width: 100px;
+        line-height: 120px;
+    }
+    
+    .footer-col .social-links a i {
+        font-size: 2.8rem;
     }
 }
