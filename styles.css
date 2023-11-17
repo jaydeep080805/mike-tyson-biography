@@ -1,0 +1,145 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #121212;
+  color: white;
+}
+
+.desktop-nav {
+  background-color: #333;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 8fr 4fr;
+}
+
+.main-section {
+  justify-self: flex-start;
+}
+
+.toggle-section {
+  align-items: center; /* Center the toggle vertically */
+  justify-self: flex-end;
+}
+
+.desktop-nav a {
+  cursor: pointer;
+  color: white;
+  font-size: 1.3rem;
+  margin-right: 20px;
+  transition: 0.3s ease;
+}
+
+.desktop-nav a:hover {
+  background-color: #121212;
+}
+
+.dark-mode-toggle a {
+  font-style: normal;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+
+.content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.introduction {
+  font-weight: 700;
+  color: grey;
+}
+
+.main-picture {
+  width: 50%;
+}
+
+.photo-credit {
+  font-style: italic;
+  margin-top: 1px;
+}
+
+.section-heading {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.information-container {
+  width: 100%;
+}
+
+.image-container {
+  width: 50%;
+  float: right;
+  text-align: right;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.picture-with-cus {
+  width: 100%;
+}
+
+footer {
+  min-height: 20vh;
+  background-color: #333;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 786px) {
+  .desktop-nav {
+    display: none;
+  }
+
+  .container {
+    text-align: left;
+  }
+
+  .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 5rem;
+    font-weight: 700;
+  }
+
+  .main-picture {
+    width: 100%;
+    margin: 0;
+  }
+
+  .information-container {
+    width: 100%;
+  }
+
+  .image-container {
+    float: none;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+
+  .yt-video {
+    width: 100%;
+  }
+}
