@@ -1,188 +1,189 @@
 /* Apply the Poppins font to all elements */
 * {
-    font-family: poppins, sans-serif;
+  font-family: poppins, sans-serif;
 }
 
 /* @media (min-width: 801px) { */
-    /* Styling for the navigation bar */
+/* Styling for the navigation bar */
 .nav-bar {
-    display: flex; /* Use flexbox to center the links */
-    justify-content: center; /* Center the links horizontally */
-    align-items: center; /* Center the links vertically */
-    overflow: hidden;
-    background-color: #000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 50px; /* Set a fixed height for the navbar */
+  display: flex; /* Use flexbox to center the links */
+  justify-content: center; /* Center the links horizontally */
+  align-items: center; /* Center the links vertically */
+  overflow: hidden;
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px; /* Set a fixed height for the navbar */
 }
 
 .nav-bar a {
-    float: left;
-    left: 50%;
-    text-align: center;
-    padding: 14px 16px;
-    color: #fff;
+  float: left;
+  left: 50%;
+  text-align: center;
+  padding: 14px 16px;
+  color: #fff;
+  transition: 0.3s ease;
 }
 
 .nav-bar a:hover {
-    background-color: #333;
-    cursor: pointer;
+  background-color: #333;
+  cursor: pointer;
 }
 
 /* Styling for the main container */
 .container {
-    margin: 80px auto; /* Centers the container */
-    text-align: center;
-    width: 1000px;
+  margin: 80px auto; /* Centers the container */
+  text-align: center;
+  width: 1000px;
 }
 
 /* Styling for elements with class "whole-line" */
 .whole-line {
-    width: 100%; /* Separates all the elements to be on their separate line */
-    margin-bottom: 5px;
+  width: 100%; /* Separates all the elements to be on their separate line */
+  margin-bottom: 5px;
 }
 
 /* Styling for the main title */
 .title {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 /* Styling for updated text */
 .updated-text {
-    font-size: 0.8rem;
-    margin-top: 20px;
-    color: rgba(0, 0, 0, 0.8); /* Makes the text slightly transparent */
-    font-weight: bold;
-    font-style: italic;
+  font-size: 0.8rem;
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.8); /* Makes the text slightly transparent */
+  font-weight: bold;
+  font-style: italic;
 }
 
 /* Styling for subheadings */
 .subheading {
-    font-weight: bold;
-    color: gray;
-    font-size: 1.3rem;
+  font-weight: bold;
+  color: gray;
+  font-size: 1.3rem;
 }
 
 /* Styling for images */
 img {
-    width: 600px;
-    max-width: 100%; /* Doesn't let the image become greater than the size of the div */
-    margin-top: 12px;
+  width: 600px;
+  max-width: 100%; /* Doesn't let the image become greater than the size of the div */
+  margin-top: 12px;
 }
 
 /* Styling for the photo credit */
 #photo-credit {
-    font-size: 0.8rem;
-    text-align: left;
-    margin-left: 200px;
-    margin-top: 0px;
+  font-size: 0.8rem;
+  text-align: left;
+  margin-left: 200px;
+  margin-top: 0px;
 }
 
 /* Styling for all heading elements within a div */
 div > h2 {
-    text-align: left; /* Sets the text to the left side of the container */
-    margin-left: 200px;
-    font-size: 2rem;
+  text-align: left; /* Sets the text to the left side of the container */
+  margin-left: 200px;
+  font-size: 2rem;
 }
 
 /* Styling for informational paragraphs */
 .information {
-    text-align: left;
-    margin-left: 200px;
-    inline-size: 600px;
+  text-align: left;
+  margin-left: 200px;
+  inline-size: 600px;
 }
 
 /* Styling for images with ID "cus" */
 #cus {
-    width: 30%; /* Makes the image smaller */
-    display: flex;
-    margin-right: 200px;
-    float: right; /* Allows the text to wrap around the image */
+  width: 30%; /* Makes the image smaller */
+  display: flex;
+  margin-right: 200px;
+  float: right; /* Allows the text to wrap around the image */
 }
 
 /* Styling for YouTube video elements */
 .yt-video {
-    display: flex;
-    margin-left: 200px;
+  display: flex;
+  margin-left: 200px;
 }
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-    
-.footer-container{
-    max-width: 1170px;
-    margin:auto;
+
+.footer-container {
+  max-width: 1170px;
+  margin: auto;
 }
-.row{
-    display: flex;
-    flex-wrap: wrap;
+.row {
+  display: flex;
+  flex-wrap: wrap;
 }
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
-.footer{
-    background-color: #24262b;
-    padding: 70px 0;
+.footer {
+  background-color: #24262b;
+  padding: 70px 0;
 }
-.footer-col{
-    width: 25%;
-    padding: 0 15px;
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
 }
-.footer-col h4{
-    font-size: 18px;
-    color: #ffffff;
-    text-transform: capitalize;
-    margin-bottom: 35px;
-    font-weight: 500;
-    position: relative;
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
 }
-.footer-col h4::before{
-    content: '';
-    position: absolute;
-    left:0;
-    bottom: -10px;
-    background-color: #e91e63;
-    height: 2px;
-    box-sizing: border-box;
-    width: 50px;
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
 }
-.footer-col ul li:not(:last-child){
-    margin-bottom: 10px;
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
 }
-.footer-col ul li a{
-    font-size: 16px;
-    text-transform: capitalize;
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: 300;
-    color: #bbbbbb;
-    display: block;
-    transition: all 0.3s ease;
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
 }
-.footer-col ul li a:hover{
-    color: #ffffff;
-    padding-left: 8px;
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
 }
-.footer-col .social-links a{
-    display: inline-block;
-    height: 40px;
-    width: 40px;
-    background-color: rgba(255,255,255,0.2);
-    margin:0 10px 10px 0;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50%;
-    color: #ffffff;
-    transition: all 0.5s ease;
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
 }
-.footer-col .social-links a:hover{
-    color: #24262b;
-    background-color: #ffffff;
-}   
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
 
 /*responsive*/
 /* @media(max-width: 767px){
@@ -193,100 +194,100 @@ ul{
 } */
 
 /* mobile sizing */
-@media(min-width: 0px) and (max-width: 1000px){
-    body {
-        margin: 0;
-    }
+@media (min-width: 0px) and (max-width: 1000px) {
+  body {
+    margin: 0;
+  }
 
-    .nav-bar {
-        display: none;
-    }
+  .nav-bar {
+    display: none;
+  }
 
-    .title {
-        font-size:15rem;
-        text-align: left;
-        margin-left: 10px;
-        margin-top: 0;
-    }
+  .title {
+    font-size: 15rem;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 0;
+  }
 
-    #red-title-colour {
-        color: red;
-    }
+  #red-title-colour {
+    color: red;
+  }
 
-    .subheading {
-        text-align: left;
-        font-size: 3rem;
-        margin-left: 10px;
-    }
+  .subheading {
+    text-align: left;
+    font-size: 3rem;
+    margin-left: 10px;
+  }
 
-    img {
-        width: 100%;
-    }
+  img {
+    width: 100%;
+  }
 
-    .heading {
-        font-size: 8rem;
-        padding-left: 20px;
-        padding-bottom: 10px;
-    }
+  .heading {
+    font-size: 8rem;
+    padding-left: 20px;
+    padding-bottom: 10px;
+  }
 
-    .information {
-        font-size: 2.5rem;
-        padding-left: 20px;
-    }
+  .information {
+    font-size: 2.5rem;
+    padding-left: 20px;
+  }
 
-    .container {
-        margin: auto;
-        width: 100%;
-        margin-top: 70px;
-    }
+  .container {
+    margin: auto;
+    width: 100%;
+    margin-top: 70px;
+  }
 
-    #photo-credit {
-        margin: 0 0 10px 10px;
-    }
+  #photo-credit {
+    margin: 0 0 10px 10px;
+  }
 
-    .heading {
-        margin: 20px 0 0 0;
-    }
+  .heading {
+    margin: 20px 0 0 0;
+  }
 
-    .information {
-        margin: 0;
-        width: 100%;
-    }
+  .information {
+    margin: 0;
+    width: 100%;
+  }
 
-    #cus {
-        width: 100%;
-        margin: 10px 0 20px 0;
-        float: none;
-    }
+  #cus {
+    width: 100%;
+    margin: 10px 0 20px 0;
+    float: none;
+  }
 
-    .yt-video {
-        margin: 20px 0 0 0;
-        width: 100%;
-        height: 500px;
-    }
+  .yt-video {
+    margin: 20px 0 0 0;
+    width: 100%;
+    height: 500px;
+  }
 
-    .footer-col{
-        width: 100%;
-    }
+  .footer-col {
+    width: 100%;
+  }
 
-    .footer-col h4{
-        font-size: 6rem;
-    }
-    .footer-col h4::before{
-        width: 200px;
-    }
+  .footer-col h4 {
+    font-size: 6rem;
+  }
+  .footer-col h4::before {
+    width: 200px;
+  }
 
-    .footer-col ul li a{
-        font-size: 2rem;
-    }
+  .footer-col ul li a {
+    font-size: 2rem;
+  }
 
-    .footer-col .social-links a{
-        height: 100px;
-        width: 100px;
-        line-height: 120px;
-    }
-    
-    .footer-col .social-links a i {
-        font-size: 2.8rem;
-    }
+  .footer-col .social-links a {
+    height: 100px;
+    width: 100px;
+    line-height: 120px;
+  }
+
+  .footer-col .social-links a i {
+    font-size: 2.8rem;
+  }
 }
